@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Heebo:wght@100..900&family=Homemade+Apple&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    background-color: #F5F1EE;
+    padding: 5vw 15vw;
+}
+
+header {
+    display: flex;
+    gap: 7vw;
+    width: 100vw;
+    height: 35vh;
+    padding: 5vw 0;
+    position: relative;
+    margin-bottom: 7vw;
+}
+
+header h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: 37vw;
+    color: #4D4342;
+    line-height: 80%;
+}
+
+header h1:last-child{
+    position: absolute;
+    bottom: 27vw;
+}
+
+header hr {
+    color: #4d434275;
+    margin-top: 18%;
+}
+main{
+    background-color: #F5F1EE;
+    font-family: "Heebo", serif;
+}
+main p{
+    text-align: right;
+    line-height: 95%;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+main p:last-child{
+    margin-right: 6vw;
+    margin-bottom: 12vw;
+}
+main h2{
+    text-align: right;
+    font-weight: 200;
+    font-size: 2.6rem;
+    line-height: 120%;
+}
+main button{
+    padding: 1rem 3rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: #4d4342f3;
+    border: 1px solid #4d434275;
+    border-radius: 4px;
+    margin: 20vw;
+    margin-top: 25vw;
+}
+footer{
+    background-color: #F5F1EE;
+    position: absolute;
+    bottom: 9vw;
+    right: 10vw;
+}
+footer p{
+    text-align: right;
+    width: 100%;
+    font-size: .8rem;
+    font-family: "Homemade Apple", serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    padding: 20vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section h1{
+    letter-spacing: 5px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-family: "Cormorant Garamond", serif;
+}
+section img{
+    width: 34vw;
+    margin: 17vw 0;
+}
+section p{
+    font-family: "Heebo", serif;
+    color: rgba(0, 0, 0, 0.644);
+    line-height: 2.5rem;
+    font-size: .9rem;
+    text-align: center;
+    font-style: italic;
+}
+section h2{
+    position: absolute;
+    bottom: 20vw;
+    font-weight: 600;
+    color: #4d4342be;
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing: 5px;
+}
